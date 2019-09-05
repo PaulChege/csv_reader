@@ -29,4 +29,4 @@ CSV.foreach('MOCK_DATA.csv', :headers => true) do |row|
     }
 end
 
-puts persons
+puts persons.first(10)
