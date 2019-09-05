@@ -14,7 +14,7 @@ person = {
   'ip_address' => a['ip_address']
 }
 
-# puts person
+puts person
 
 #First 10 rows
 persons = Hash.new
