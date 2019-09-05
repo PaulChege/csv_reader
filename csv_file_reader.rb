@@ -1,7 +1,6 @@
 require 'csv'
 
 array = CSV.read('MOCK_DATA.csv')
-person = Hash.new
 
 # First row
 a = CSV.read('MOCK_DATA.csv', :headers => true).first
